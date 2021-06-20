@@ -6,7 +6,7 @@ CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary
 CD %EXT_DIR%
 
 :: Build extensions
-cl /MD generate_series.c -link -dll -out:generate_series_64.dll
+cl /MD series.c -link -dll -out:series_64.dll
 
 pause
 
